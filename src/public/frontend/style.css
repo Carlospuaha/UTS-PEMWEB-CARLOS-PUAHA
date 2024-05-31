@@ -1,0 +1,26 @@
+/* style.css */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f0f0f0;
+}
+
+tr.active {
+    background-color: #ccc;
+}
+
+caption {
+    caption-side: top;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
